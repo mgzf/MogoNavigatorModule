@@ -1,0 +1,12 @@
+PODS:
+  - DeeplinkNavigator (0.3.5)
+
+DEPENDENCIES:
+  - DeeplinkNavigator
+
+SPEC CHECKSUMS:
+  DeeplinkNavigator: 2488348d4f9d364788da548a6c05ba50ba394542
+
+PODFILE CHECKSUM: 791e2e0a034e8b0106ed495b60127ef6cf8f43ce
+
+COCOAPODS: 1.2.1

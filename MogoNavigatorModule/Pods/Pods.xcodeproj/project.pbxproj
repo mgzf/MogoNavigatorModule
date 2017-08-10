@@ -1,0 +1,898 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0577EC30F282DAF9916C66EA9CD8A5DF /* DeeplinkMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1235A0055605D3E317EB538495DA4BD5 /* DeeplinkMatcher.swift */; };
+		151F0BFBD3D076CCF33E72E7DFE5FC5B /* UIViewController+TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7217F2B4B0D82540B69F89A66CAAE17 /* UIViewController+TopViewController.swift */; };
+		1DE69735ADC88CA5601EBF50DE8A11BD /* DeeplinkPushable.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC621B82A349B75782A39221ACDE9C3A /* DeeplinkPushable.swift */; };
+		2C71AF7FA77D161D57CCBBB49C49AFE8 /* DeeplinkNavigator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D96D8F1D9A543B29F329FB9B9EB89F51 /* DeeplinkNavigator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3A74CBBDCC5C3CDDF47BB25A7E41FC2B /* DeeplinkNavigable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2977FF1B3FCA123EE3D07A2EC7F5EFF7 /* DeeplinkNavigable.swift */; };
+		4754636A85145CD449FCF439FEAA1FFD /* DeeplinkNavigator.h in Headers */ = {isa = PBXBuildFile; fileRef = 893D656288294B5EEFD9AE973B4D9048 /* DeeplinkNavigator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		53A20DA232C71832D60685A385DA0934 /* UIView+TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8B903231A3B82450E68C039EFAB2F3F /* UIView+TopViewController.swift */; };
+		58A96F8B5AA866962ADA1445A8FD156C /* Pods-MogoNavigatorModuleUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 95A82D6C816DDDEF2AB27B8181D5BF2F /* Pods-MogoNavigatorModuleUITests-dummy.m */; };
+		7BFBFBE4BF444D90500218FD2AA07A61 /* DeeplinkNavigator-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA63C2F9448500E797FDEB5E69B5736 /* DeeplinkNavigator-dummy.m */; };
+		829CB676CA8149CF677E22B72C9F49B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		839A0D35486BA47162201DF4E3C723AB /* Pods-MogoNavigatorModuleTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF86266BB0E48959CB1B2C7F93B72961 /* Pods-MogoNavigatorModuleTests-dummy.m */; };
+		86F50845CAA103E866A1CD398FC0F5DE /* Pods-MogoNavigatorModuleTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C9AF72EA50972E2D50CEC94F9E392F6 /* Pods-MogoNavigatorModuleTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8831AD51C59A9BF0D85711E222E06AA2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		8A28418209D04EB79F887570BFD449AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9318C72A6A25557DFE3505F23F8FF66B /* DeeplinkNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555039624EC6EC7B994005B4673A30C6 /* DeeplinkNavigation.swift */; };
+		C703C44D71CCA6FC09809FC473981933 /* DeeplinkConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40900579EA212CCCC7C39E1B82569DE9 /* DeeplinkConvertible.swift */; };
+		C9DEE35AB30FD06EA28470E00995BDEC /* Pods-MogoNavigatorModuleUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DCC355268ED39F4D39F8E36C4C66E629 /* Pods-MogoNavigatorModuleUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D091BEDE9DFBF3300B64C12EE9E71408 /* DeeplinkNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D582BD41CED3FF09CFCA5282EEA9B34 /* DeeplinkNavigator.swift */; };
+		D3A81B10A0D2B0BAECCE6BA42465906C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		D66A8C4ABE0910EAF3EDD0673027DA32 /* Pods-MogoNavigatorModule-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66577155C56FEF2DCDB5456D95F74CC2 /* Pods-MogoNavigatorModule-dummy.m */; };
+		E38001E2253539439DF0B339CD30B4B8 /* Pods-MogoNavigatorModule-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CF7B69C8D8FA4C0A07721CDD094AA73 /* Pods-MogoNavigatorModule-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8E4C8886CA180EF207CA801100E93A4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A5756376E3D0F8DA601550A7FA46669;
+			remoteInfo = DeeplinkNavigator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03EAB08292F221DCC3E8F62ED7C14081 /* Pods-MogoNavigatorModuleUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MogoNavigatorModuleUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0D582BD41CED3FF09CFCA5282EEA9B34 /* DeeplinkNavigator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeeplinkNavigator.swift; path = Sources/DeeplinkNavigator.swift; sourceTree = "<group>"; };
+		1235A0055605D3E317EB538495DA4BD5 /* DeeplinkMatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeeplinkMatcher.swift; path = Sources/DeeplinkMatcher.swift; sourceTree = "<group>"; };
+		175976C5923784D752E7DAE5F3FA07EA /* Pods-MogoNavigatorModule-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MogoNavigatorModule-resources.sh"; sourceTree = "<group>"; };
+		1DBEFC56228F82AABC9C3099826BEBAA /* Pods-MogoNavigatorModule.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MogoNavigatorModule.modulemap"; sourceTree = "<group>"; };
+		219AB5EC75E0752CEB62F13810FCEA54 /* Pods-MogoNavigatorModuleUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MogoNavigatorModuleUITests.modulemap"; sourceTree = "<group>"; };
+		2462548DB39FFCF6F884D7AD38BC27F2 /* Pods_MogoNavigatorModuleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MogoNavigatorModuleTests.framework; path = "Pods-MogoNavigatorModuleTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2977FF1B3FCA123EE3D07A2EC7F5EFF7 /* DeeplinkNavigable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeeplinkNavigable.swift; path = Sources/DeeplinkNavigable.swift; sourceTree = "<group>"; };
+		2C9AF72EA50972E2D50CEC94F9E392F6 /* Pods-MogoNavigatorModuleTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MogoNavigatorModuleTests-umbrella.h"; sourceTree = "<group>"; };
+		303D688B40D0B5DA649FB1FA9B52B2C3 /* Pods-MogoNavigatorModuleUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MogoNavigatorModuleUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3AAE73BD1885C646E04D3C18010F999A /* DeeplinkNavigator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DeeplinkNavigator.xcconfig; sourceTree = "<group>"; };
+		3C084EA694F1BC35AE06EC6D7F2C66F7 /* Pods-MogoNavigatorModuleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MogoNavigatorModuleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		40900579EA212CCCC7C39E1B82569DE9 /* DeeplinkConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeeplinkConvertible.swift; path = Sources/DeeplinkConvertible.swift; sourceTree = "<group>"; };
+		489E7F8046648EF134B4ADD314DC5674 /* Pods-MogoNavigatorModule-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MogoNavigatorModule-frameworks.sh"; sourceTree = "<group>"; };
+		4BBF84E65F343595924BFF3A7091F99F /* Pods-MogoNavigatorModuleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MogoNavigatorModuleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E487A10908F338CA5701D4F0BFEE1F1 /* Pods-MogoNavigatorModuleUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MogoNavigatorModuleUITests-frameworks.sh"; sourceTree = "<group>"; };
+		555039624EC6EC7B994005B4673A30C6 /* DeeplinkNavigation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeeplinkNavigation.swift; path = Sources/DeeplinkNavigation.swift; sourceTree = "<group>"; };
+		5AA63C2F9448500E797FDEB5E69B5736 /* DeeplinkNavigator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DeeplinkNavigator-dummy.m"; sourceTree = "<group>"; };
+		5C7AB1155CFE80DEE854BE0D4747DE2D /* Pods-MogoNavigatorModule-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MogoNavigatorModule-acknowledgements.plist"; sourceTree = "<group>"; };
+		606E56796DAB681E2E25370A4E543A0C /* DeeplinkNavigator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = DeeplinkNavigator.modulemap; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66577155C56FEF2DCDB5456D95F74CC2 /* Pods-MogoNavigatorModule-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MogoNavigatorModule-dummy.m"; sourceTree = "<group>"; };
+		6CF7B69C8D8FA4C0A07721CDD094AA73 /* Pods-MogoNavigatorModule-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MogoNavigatorModule-umbrella.h"; sourceTree = "<group>"; };
+		6EB7D6C9AAE01DA2CFE38070D39AA868 /* Pods-MogoNavigatorModuleUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MogoNavigatorModuleUITests-resources.sh"; sourceTree = "<group>"; };
+		780D99CE0D64D5B796EBFB3730FF827E /* Pods-MogoNavigatorModuleTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-MogoNavigatorModuleTests.modulemap"; sourceTree = "<group>"; };
+		7A2BF9C3034F8C7A4F6D3978B57A43B5 /* Pods_MogoNavigatorModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MogoNavigatorModule.framework; path = "Pods-MogoNavigatorModule.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E479E0973E00106D3F07541F715169E /* Pods-MogoNavigatorModuleTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MogoNavigatorModuleTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7FEC1F1A6B792296A6F08A96BB15E0BA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8439529B6511768B8B4473DE949EDB14 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		893D656288294B5EEFD9AE973B4D9048 /* DeeplinkNavigator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DeeplinkNavigator.h; path = Sources/DeeplinkNavigator.h; sourceTree = "<group>"; };
+		8D6E4EA489C95F9C6B5CE4F2EA7E2280 /* DeeplinkNavigator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeeplinkNavigator-prefix.pch"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95568F28DB2725B4E223E490AF6E52C4 /* Pods-MogoNavigatorModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MogoNavigatorModule.debug.xcconfig"; sourceTree = "<group>"; };
+		95A82D6C816DDDEF2AB27B8181D5BF2F /* Pods-MogoNavigatorModuleUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MogoNavigatorModuleUITests-dummy.m"; sourceTree = "<group>"; };
+		96AA40982B997C60BD12DE6A7ED006F2 /* Pods-MogoNavigatorModule-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MogoNavigatorModule-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A4B96A6AFDE79F24B2161B8E4460EDBA /* Pods-MogoNavigatorModuleTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MogoNavigatorModuleTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A6472A57C94B537CF51AA3E0AC39366D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7217F2B4B0D82540B69F89A66CAAE17 /* UIViewController+TopViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+TopViewController.swift"; path = "Sources/UIViewController+TopViewController.swift"; sourceTree = "<group>"; };
+		A899C80CA008774419CCE71A0DFB189B /* Pods-MogoNavigatorModuleTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MogoNavigatorModuleTests-resources.sh"; sourceTree = "<group>"; };
+		ABDADB210559C9EB25F5CF388E23F702 /* Pods-MogoNavigatorModuleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MogoNavigatorModuleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AF55DC8E205A35CAF9ECFCAB6A7FF88B /* Pods-MogoNavigatorModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MogoNavigatorModule.release.xcconfig"; sourceTree = "<group>"; };
+		AF86266BB0E48959CB1B2C7F93B72961 /* Pods-MogoNavigatorModuleTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MogoNavigatorModuleTests-dummy.m"; sourceTree = "<group>"; };
+		B04703D44DD2933E6F47DFA03F1235B4 /* Pods_MogoNavigatorModuleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MogoNavigatorModuleUITests.framework; path = "Pods-MogoNavigatorModuleUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8B903231A3B82450E68C039EFAB2F3F /* UIView+TopViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+TopViewController.swift"; path = "Sources/UIView+TopViewController.swift"; sourceTree = "<group>"; };
+		B8CA01658A76FA3EE790459BE1B8A668 /* DeeplinkNavigator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DeeplinkNavigator.framework; path = DeeplinkNavigator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF83C370033A522A46C17C0B4A71242E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A260940E7A4220D33D4419DFDD31DE /* Pods-MogoNavigatorModuleTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MogoNavigatorModuleTests-frameworks.sh"; sourceTree = "<group>"; };
+		D96D8F1D9A543B29F329FB9B9EB89F51 /* DeeplinkNavigator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DeeplinkNavigator-umbrella.h"; sourceTree = "<group>"; };
+		DC621B82A349B75782A39221ACDE9C3A /* DeeplinkPushable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DeeplinkPushable.swift; path = Sources/DeeplinkPushable.swift; sourceTree = "<group>"; };
+		DCC355268ED39F4D39F8E36C4C66E629 /* Pods-MogoNavigatorModuleUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MogoNavigatorModuleUITests-umbrella.h"; sourceTree = "<group>"; };
+		F2009C606DE552AE0DE462AA2CA82F4E /* Pods-MogoNavigatorModuleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MogoNavigatorModuleTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1474F8DFD3FAA79FCD73D332B3E5751F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8831AD51C59A9BF0D85711E222E06AA2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		385A16D223F268654354CE8D26C6A352 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				829CB676CA8149CF677E22B72C9F49B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8604EA0B6C71D281AEA788A90FB14B2F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A28418209D04EB79F887570BFD449AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7FD6CC55B530BB5076E770FB1534DA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3A81B10A0D2B0BAECCE6BA42465906C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00D24A5419E00D8453E18A9AFC3F08B4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06AFEA7CFC4FBA95E2D9170F7A7B4D60 /* DeeplinkNavigator */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		066496C611DA2EE8CDC006A12BBD6549 /* Pods-MogoNavigatorModuleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7FEC1F1A6B792296A6F08A96BB15E0BA /* Info.plist */,
+				219AB5EC75E0752CEB62F13810FCEA54 /* Pods-MogoNavigatorModuleUITests.modulemap */,
+				03EAB08292F221DCC3E8F62ED7C14081 /* Pods-MogoNavigatorModuleUITests-acknowledgements.markdown */,
+				303D688B40D0B5DA649FB1FA9B52B2C3 /* Pods-MogoNavigatorModuleUITests-acknowledgements.plist */,
+				95A82D6C816DDDEF2AB27B8181D5BF2F /* Pods-MogoNavigatorModuleUITests-dummy.m */,
+				4E487A10908F338CA5701D4F0BFEE1F1 /* Pods-MogoNavigatorModuleUITests-frameworks.sh */,
+				6EB7D6C9AAE01DA2CFE38070D39AA868 /* Pods-MogoNavigatorModuleUITests-resources.sh */,
+				DCC355268ED39F4D39F8E36C4C66E629 /* Pods-MogoNavigatorModuleUITests-umbrella.h */,
+				3C084EA694F1BC35AE06EC6D7F2C66F7 /* Pods-MogoNavigatorModuleUITests.debug.xcconfig */,
+				ABDADB210559C9EB25F5CF388E23F702 /* Pods-MogoNavigatorModuleUITests.release.xcconfig */,
+			);
+			name = "Pods-MogoNavigatorModuleUITests";
+			path = "Target Support Files/Pods-MogoNavigatorModuleUITests";
+			sourceTree = "<group>";
+		};
+		06AFEA7CFC4FBA95E2D9170F7A7B4D60 /* DeeplinkNavigator */ = {
+			isa = PBXGroup;
+			children = (
+				40900579EA212CCCC7C39E1B82569DE9 /* DeeplinkConvertible.swift */,
+				1235A0055605D3E317EB538495DA4BD5 /* DeeplinkMatcher.swift */,
+				2977FF1B3FCA123EE3D07A2EC7F5EFF7 /* DeeplinkNavigable.swift */,
+				555039624EC6EC7B994005B4673A30C6 /* DeeplinkNavigation.swift */,
+				893D656288294B5EEFD9AE973B4D9048 /* DeeplinkNavigator.h */,
+				0D582BD41CED3FF09CFCA5282EEA9B34 /* DeeplinkNavigator.swift */,
+				DC621B82A349B75782A39221ACDE9C3A /* DeeplinkPushable.swift */,
+				B8B903231A3B82450E68C039EFAB2F3F /* UIView+TopViewController.swift */,
+				A7217F2B4B0D82540B69F89A66CAAE17 /* UIViewController+TopViewController.swift */,
+				AB65AA86DF090827216C8BCFB3007AA7 /* Support Files */,
+			);
+			name = DeeplinkNavigator;
+			path = DeeplinkNavigator;
+			sourceTree = "<group>";
+		};
+		2BDDC5562728FAFEA73C39FB275AD878 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5F752ADC2FED866D2C58092D2D6BB120 /* Pods-MogoNavigatorModule */,
+				9E01440867B1341919C7300FE0F21AE1 /* Pods-MogoNavigatorModuleTests */,
+				066496C611DA2EE8CDC006A12BBD6549 /* Pods-MogoNavigatorModuleUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5F752ADC2FED866D2C58092D2D6BB120 /* Pods-MogoNavigatorModule */ = {
+			isa = PBXGroup;
+			children = (
+				8439529B6511768B8B4473DE949EDB14 /* Info.plist */,
+				1DBEFC56228F82AABC9C3099826BEBAA /* Pods-MogoNavigatorModule.modulemap */,
+				96AA40982B997C60BD12DE6A7ED006F2 /* Pods-MogoNavigatorModule-acknowledgements.markdown */,
+				5C7AB1155CFE80DEE854BE0D4747DE2D /* Pods-MogoNavigatorModule-acknowledgements.plist */,
+				66577155C56FEF2DCDB5456D95F74CC2 /* Pods-MogoNavigatorModule-dummy.m */,
+				489E7F8046648EF134B4ADD314DC5674 /* Pods-MogoNavigatorModule-frameworks.sh */,
+				175976C5923784D752E7DAE5F3FA07EA /* Pods-MogoNavigatorModule-resources.sh */,
+				6CF7B69C8D8FA4C0A07721CDD094AA73 /* Pods-MogoNavigatorModule-umbrella.h */,
+				95568F28DB2725B4E223E490AF6E52C4 /* Pods-MogoNavigatorModule.debug.xcconfig */,
+				AF55DC8E205A35CAF9ECFCAB6A7FF88B /* Pods-MogoNavigatorModule.release.xcconfig */,
+			);
+			name = "Pods-MogoNavigatorModule";
+			path = "Target Support Files/Pods-MogoNavigatorModule";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				00D24A5419E00D8453E18A9AFC3F08B4 /* Pods */,
+				ECA2F2A1BAA4728098B62B8B1AB1BBFE /* Products */,
+				2BDDC5562728FAFEA73C39FB275AD878 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9E01440867B1341919C7300FE0F21AE1 /* Pods-MogoNavigatorModuleTests */ = {
+			isa = PBXGroup;
+			children = (
+				BF83C370033A522A46C17C0B4A71242E /* Info.plist */,
+				780D99CE0D64D5B796EBFB3730FF827E /* Pods-MogoNavigatorModuleTests.modulemap */,
+				A4B96A6AFDE79F24B2161B8E4460EDBA /* Pods-MogoNavigatorModuleTests-acknowledgements.markdown */,
+				7E479E0973E00106D3F07541F715169E /* Pods-MogoNavigatorModuleTests-acknowledgements.plist */,
+				AF86266BB0E48959CB1B2C7F93B72961 /* Pods-MogoNavigatorModuleTests-dummy.m */,
+				D7A260940E7A4220D33D4419DFDD31DE /* Pods-MogoNavigatorModuleTests-frameworks.sh */,
+				A899C80CA008774419CCE71A0DFB189B /* Pods-MogoNavigatorModuleTests-resources.sh */,
+				2C9AF72EA50972E2D50CEC94F9E392F6 /* Pods-MogoNavigatorModuleTests-umbrella.h */,
+				4BBF84E65F343595924BFF3A7091F99F /* Pods-MogoNavigatorModuleTests.debug.xcconfig */,
+				F2009C606DE552AE0DE462AA2CA82F4E /* Pods-MogoNavigatorModuleTests.release.xcconfig */,
+			);
+			name = "Pods-MogoNavigatorModuleTests";
+			path = "Target Support Files/Pods-MogoNavigatorModuleTests";
+			sourceTree = "<group>";
+		};
+		AB65AA86DF090827216C8BCFB3007AA7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				606E56796DAB681E2E25370A4E543A0C /* DeeplinkNavigator.modulemap */,
+				3AAE73BD1885C646E04D3C18010F999A /* DeeplinkNavigator.xcconfig */,
+				5AA63C2F9448500E797FDEB5E69B5736 /* DeeplinkNavigator-dummy.m */,
+				8D6E4EA489C95F9C6B5CE4F2EA7E2280 /* DeeplinkNavigator-prefix.pch */,
+				D96D8F1D9A543B29F329FB9B9EB89F51 /* DeeplinkNavigator-umbrella.h */,
+				A6472A57C94B537CF51AA3E0AC39366D /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DeeplinkNavigator";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		ECA2F2A1BAA4728098B62B8B1AB1BBFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8CA01658A76FA3EE790459BE1B8A668 /* DeeplinkNavigator.framework */,
+				7A2BF9C3034F8C7A4F6D3978B57A43B5 /* Pods_MogoNavigatorModule.framework */,
+				2462548DB39FFCF6F884D7AD38BC27F2 /* Pods_MogoNavigatorModuleTests.framework */,
+				B04703D44DD2933E6F47DFA03F1235B4 /* Pods_MogoNavigatorModuleUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0593E8ED1070D9202E9A6523D6FEDB47 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E38001E2253539439DF0B339CD30B4B8 /* Pods-MogoNavigatorModule-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		99A800814BA4F6C2AB4796C6E6A377AA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C71AF7FA77D161D57CCBBB49C49AFE8 /* DeeplinkNavigator-umbrella.h in Headers */,
+				4754636A85145CD449FCF439FEAA1FFD /* DeeplinkNavigator.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86F45779A55AAC01190AD7585626426 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86F50845CAA103E866A1CD398FC0F5DE /* Pods-MogoNavigatorModuleTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDA2D9379273F4DA25DD8297426ED733 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9DEE35AB30FD06EA28470E00995BDEC /* Pods-MogoNavigatorModuleUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A5756376E3D0F8DA601550A7FA46669 /* DeeplinkNavigator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8CF50DCC3E8B552D976206709A97C4A4 /* Build configuration list for PBXNativeTarget "DeeplinkNavigator" */;
+			buildPhases = (
+				8EC2C452C3512413F58D90EF41E672D7 /* Sources */,
+				8604EA0B6C71D281AEA788A90FB14B2F /* Frameworks */,
+				99A800814BA4F6C2AB4796C6E6A377AA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeeplinkNavigator;
+			productName = DeeplinkNavigator;
+			productReference = B8CA01658A76FA3EE790459BE1B8A668 /* DeeplinkNavigator.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2DBA0D77132AD7FC5883B6632F87DA71 /* Pods-MogoNavigatorModule */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8205E30012A3588A78411373F4926EA /* Build configuration list for PBXNativeTarget "Pods-MogoNavigatorModule" */;
+			buildPhases = (
+				09EA9CD349066A43AB008772D906AECA /* Sources */,
+				A7FD6CC55B530BB5076E770FB1534DA9 /* Frameworks */,
+				0593E8ED1070D9202E9A6523D6FEDB47 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				879CFDCB933AC9F6693673B047C9ADF8 /* PBXTargetDependency */,
+			);
+			name = "Pods-MogoNavigatorModule";
+			productName = "Pods-MogoNavigatorModule";
+			productReference = 7A2BF9C3034F8C7A4F6D3978B57A43B5 /* Pods_MogoNavigatorModule.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AD49F98C92EC258655A4BB719905A3FA /* Pods-MogoNavigatorModuleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E7ECAA48799B59FBA1E0C41D040152E /* Build configuration list for PBXNativeTarget "Pods-MogoNavigatorModuleUITests" */;
+			buildPhases = (
+				AF4E43AE27653DC092C15CE7B787EB25 /* Sources */,
+				1474F8DFD3FAA79FCD73D332B3E5751F /* Frameworks */,
+				DDA2D9379273F4DA25DD8297426ED733 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MogoNavigatorModuleUITests";
+			productName = "Pods-MogoNavigatorModuleUITests";
+			productReference = B04703D44DD2933E6F47DFA03F1235B4 /* Pods_MogoNavigatorModuleUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CDF1D84F31AA3A201F6A43E62972E554 /* Pods-MogoNavigatorModuleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE0F922180F14F8789AECCF6A6D053AF /* Build configuration list for PBXNativeTarget "Pods-MogoNavigatorModuleTests" */;
+			buildPhases = (
+				BFB4F8636AF1A2DE6AB3EBCB9CB710F6 /* Sources */,
+				385A16D223F268654354CE8D26C6A352 /* Frameworks */,
+				A86F45779A55AAC01190AD7585626426 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MogoNavigatorModuleTests";
+			productName = "Pods-MogoNavigatorModuleTests";
+			productReference = 2462548DB39FFCF6F884D7AD38BC27F2 /* Pods_MogoNavigatorModuleTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = ECA2F2A1BAA4728098B62B8B1AB1BBFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A5756376E3D0F8DA601550A7FA46669 /* DeeplinkNavigator */,
+				2DBA0D77132AD7FC5883B6632F87DA71 /* Pods-MogoNavigatorModule */,
+				CDF1D84F31AA3A201F6A43E62972E554 /* Pods-MogoNavigatorModuleTests */,
+				AD49F98C92EC258655A4BB719905A3FA /* Pods-MogoNavigatorModuleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		09EA9CD349066A43AB008772D906AECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66A8C4ABE0910EAF3EDD0673027DA32 /* Pods-MogoNavigatorModule-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EC2C452C3512413F58D90EF41E672D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C703C44D71CCA6FC09809FC473981933 /* DeeplinkConvertible.swift in Sources */,
+				0577EC30F282DAF9916C66EA9CD8A5DF /* DeeplinkMatcher.swift in Sources */,
+				3A74CBBDCC5C3CDDF47BB25A7E41FC2B /* DeeplinkNavigable.swift in Sources */,
+				9318C72A6A25557DFE3505F23F8FF66B /* DeeplinkNavigation.swift in Sources */,
+				7BFBFBE4BF444D90500218FD2AA07A61 /* DeeplinkNavigator-dummy.m in Sources */,
+				D091BEDE9DFBF3300B64C12EE9E71408 /* DeeplinkNavigator.swift in Sources */,
+				1DE69735ADC88CA5601EBF50DE8A11BD /* DeeplinkPushable.swift in Sources */,
+				53A20DA232C71832D60685A385DA0934 /* UIView+TopViewController.swift in Sources */,
+				151F0BFBD3D076CCF33E72E7DFE5FC5B /* UIViewController+TopViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AF4E43AE27653DC092C15CE7B787EB25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				58A96F8B5AA866962ADA1445A8FD156C /* Pods-MogoNavigatorModuleUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFB4F8636AF1A2DE6AB3EBCB9CB710F6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				839A0D35486BA47162201DF4E3C723AB /* Pods-MogoNavigatorModuleTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		879CFDCB933AC9F6693673B047C9ADF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DeeplinkNavigator;
+			target = 1A5756376E3D0F8DA601550A7FA46669 /* DeeplinkNavigator */;
+			targetProxy = F8E4C8886CA180EF207CA801100E93A4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		123E0404731F62CEAF2B7DE0CACCA126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AAE73BD1885C646E04D3C18010F999A /* DeeplinkNavigator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DeeplinkNavigator/DeeplinkNavigator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DeeplinkNavigator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DeeplinkNavigator/DeeplinkNavigator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DeeplinkNavigator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		20DDAB71ED4D6794688305DF70E2B76D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF55DC8E205A35CAF9ECFCAB6A7FF88B /* Pods-MogoNavigatorModule.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MogoNavigatorModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MogoNavigatorModule/Pods-MogoNavigatorModule.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MogoNavigatorModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DCD41102493C34DB19A9E75899BFFD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C084EA694F1BC35AE06EC6D7F2C66F7 /* Pods-MogoNavigatorModuleUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MogoNavigatorModuleUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MogoNavigatorModuleUITests/Pods-MogoNavigatorModuleUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MogoNavigatorModuleUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FC799A4C80E55B7C596290DD5A27A90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AAE73BD1885C646E04D3C18010F999A /* DeeplinkNavigator.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DeeplinkNavigator/DeeplinkNavigator-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DeeplinkNavigator/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DeeplinkNavigator/DeeplinkNavigator.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DeeplinkNavigator;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6656A91B2F37DAA6077AF918F5A33750 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABDADB210559C9EB25F5CF388E23F702 /* Pods-MogoNavigatorModuleUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MogoNavigatorModuleUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MogoNavigatorModuleUITests/Pods-MogoNavigatorModuleUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MogoNavigatorModuleUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66C2BEDD4BC05B461C0B6FEE2038A2F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2009C606DE552AE0DE462AA2CA82F4E /* Pods-MogoNavigatorModuleTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MogoNavigatorModuleTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MogoNavigatorModuleTests/Pods-MogoNavigatorModuleTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MogoNavigatorModuleTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BADFA5BD70E7EA73A44ECEB38DF8B69E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4BBF84E65F343595924BFF3A7091F99F /* Pods-MogoNavigatorModuleTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MogoNavigatorModuleTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MogoNavigatorModuleTests/Pods-MogoNavigatorModuleTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MogoNavigatorModuleTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD0B912146187B7BAD0EDA97138DC780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95568F28DB2725B4E223E490AF6E52C4 /* Pods-MogoNavigatorModule.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-MogoNavigatorModule/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MogoNavigatorModule/Pods-MogoNavigatorModule.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_MogoNavigatorModule;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E7ECAA48799B59FBA1E0C41D040152E /* Build configuration list for PBXNativeTarget "Pods-MogoNavigatorModuleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DCD41102493C34DB19A9E75899BFFD7 /* Debug */,
+				6656A91B2F37DAA6077AF918F5A33750 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8CF50DCC3E8B552D976206709A97C4A4 /* Build configuration list for PBXNativeTarget "DeeplinkNavigator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				123E0404731F62CEAF2B7DE0CACCA126 /* Debug */,
+				3FC799A4C80E55B7C596290DD5A27A90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8205E30012A3588A78411373F4926EA /* Build configuration list for PBXNativeTarget "Pods-MogoNavigatorModule" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD0B912146187B7BAD0EDA97138DC780 /* Debug */,
+				20DDAB71ED4D6794688305DF70E2B76D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE0F922180F14F8789AECCF6A6D053AF /* Build configuration list for PBXNativeTarget "Pods-MogoNavigatorModuleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BADFA5BD70E7EA73A44ECEB38DF8B69E /* Debug */,
+				66C2BEDD4BC05B461C0B6FEE2038A2F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

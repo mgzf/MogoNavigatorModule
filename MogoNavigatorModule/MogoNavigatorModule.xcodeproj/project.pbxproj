@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27FBB004471A71ED87D3D49D /* Pods_MogoNavigatorModuleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9855B2BFD8E23AA29EABA4AF /* Pods_MogoNavigatorModuleUITests.framework */; };
+		5A071C477ED4A47812A1A5B0 /* Pods_MogoNavigatorModuleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B146B8D59087E50D295BF70E /* Pods_MogoNavigatorModuleTests.framework */; };
 		E4A4B9DF1F3C2DD200B27324 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A4B9DE1F3C2DD200B27324 /* AppDelegate.swift */; };
 		E4A4B9E11F3C2DD200B27324 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A4B9E01F3C2DD200B27324 /* ViewController.swift */; };
 		E4A4B9E41F3C2DD200B27324 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A4B9E21F3C2DD200B27324 /* Main.storyboard */; };
@@ -14,6 +16,8 @@
 		E4A4B9E91F3C2DD200B27324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A4B9E71F3C2DD200B27324 /* LaunchScreen.storyboard */; };
 		E4A4B9F41F3C2DD200B27324 /* MogoNavigatorModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A4B9F31F3C2DD200B27324 /* MogoNavigatorModuleTests.swift */; };
 		E4A4B9FF1F3C2DD200B27324 /* MogoNavigatorModuleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A4B9FE1F3C2DD200B27324 /* MogoNavigatorModuleUITests.swift */; };
+		E4A4BA0E1F3C2FD000B27324 /* MogoNavogator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A4BA0D1F3C2FD000B27324 /* MogoNavogator.swift */; };
+		E80358B57126BD23083D230B /* Pods_MogoNavigatorModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CFEB9AA5662FEE5C3F5AF4C /* Pods_MogoNavigatorModule.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		116A7FF419A5657AF10018BF /* Pods-MogoNavigatorModuleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MogoNavigatorModuleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MogoNavigatorModuleTests/Pods-MogoNavigatorModuleTests.release.xcconfig"; sourceTree = "<group>"; };
+		1D93B67764BB3D91D17181C5 /* Pods-MogoNavigatorModule.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MogoNavigatorModule.release.xcconfig"; path = "Pods/Target Support Files/Pods-MogoNavigatorModule/Pods-MogoNavigatorModule.release.xcconfig"; sourceTree = "<group>"; };
+		20044E1C3AA6D65B47A9EC7A /* Pods-MogoNavigatorModuleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MogoNavigatorModuleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MogoNavigatorModuleTests/Pods-MogoNavigatorModuleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2FA785BB63B5738330692E6F /* Pods-MogoNavigatorModuleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MogoNavigatorModuleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MogoNavigatorModuleUITests/Pods-MogoNavigatorModuleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7E87A257B0805800FC591825 /* Pods-MogoNavigatorModule.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MogoNavigatorModule.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MogoNavigatorModule/Pods-MogoNavigatorModule.debug.xcconfig"; sourceTree = "<group>"; };
+		8CFEB9AA5662FEE5C3F5AF4C /* Pods_MogoNavigatorModule.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MogoNavigatorModule.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9855B2BFD8E23AA29EABA4AF /* Pods_MogoNavigatorModuleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MogoNavigatorModuleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B146B8D59087E50D295BF70E /* Pods_MogoNavigatorModuleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MogoNavigatorModuleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5A53D014EC67977CA5A759C /* Pods-MogoNavigatorModuleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MogoNavigatorModuleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MogoNavigatorModuleUITests/Pods-MogoNavigatorModuleUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E4A4B9DB1F3C2DD200B27324 /* MogoNavigatorModule.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MogoNavigatorModule.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A4B9DE1F3C2DD200B27324 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E4A4B9E01F3C2DD200B27324 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +60,7 @@
 		E4A4B9FA1F3C2DD200B27324 /* MogoNavigatorModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MogoNavigatorModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A4B9FE1F3C2DD200B27324 /* MogoNavigatorModuleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MogoNavigatorModuleUITests.swift; sourceTree = "<group>"; };
 		E4A4BA001F3C2DD200B27324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4A4BA0D1F3C2FD000B27324 /* MogoNavogator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MogoNavogator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E80358B57126BD23083D230B /* Pods_MogoNavigatorModule.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A071C477ED4A47812A1A5B0 /* Pods_MogoNavigatorModuleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,19 +84,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27FBB004471A71ED87D3D49D /* Pods_MogoNavigatorModuleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8F61560F18DD01C0D9A5E49F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E87A257B0805800FC591825 /* Pods-MogoNavigatorModule.debug.xcconfig */,
+				1D93B67764BB3D91D17181C5 /* Pods-MogoNavigatorModule.release.xcconfig */,
+				20044E1C3AA6D65B47A9EC7A /* Pods-MogoNavigatorModuleTests.debug.xcconfig */,
+				116A7FF419A5657AF10018BF /* Pods-MogoNavigatorModuleTests.release.xcconfig */,
+				D5A53D014EC67977CA5A759C /* Pods-MogoNavigatorModuleUITests.debug.xcconfig */,
+				2FA785BB63B5738330692E6F /* Pods-MogoNavigatorModuleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A3FD515A596692F64FF87B39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8CFEB9AA5662FEE5C3F5AF4C /* Pods_MogoNavigatorModule.framework */,
+				B146B8D59087E50D295BF70E /* Pods_MogoNavigatorModuleTests.framework */,
+				9855B2BFD8E23AA29EABA4AF /* Pods_MogoNavigatorModuleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E4A4B9D21F3C2DD200B27324 = {
 			isa = PBXGroup;
 			children = (
+				E4A4BA0C1F3C2F6000B27324 /* Sources */,
 				E4A4B9DD1F3C2DD200B27324 /* MogoNavigatorModule */,
 				E4A4B9F21F3C2DD200B27324 /* MogoNavigatorModuleTests */,
 				E4A4B9FD1F3C2DD200B27324 /* MogoNavigatorModuleUITests */,
 				E4A4B9DC1F3C2DD200B27324 /* Products */,
+				8F61560F18DD01C0D9A5E49F /* Pods */,
+				A3FD515A596692F64FF87B39 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -125,6 +168,15 @@
 			path = MogoNavigatorModuleUITests;
 			sourceTree = "<group>";
 		};
+		E4A4BA0C1F3C2F6000B27324 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				E4A4BA0D1F3C2FD000B27324 /* MogoNavogator.swift */,
+			);
+			name = Sources;
+			path = ../Sources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +184,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4A4BA031F3C2DD200B27324 /* Build configuration list for PBXNativeTarget "MogoNavigatorModule" */;
 			buildPhases = (
+				FCCB37ECBB77B4676BD9F145 /* [CP] Check Pods Manifest.lock */,
 				E4A4B9D71F3C2DD200B27324 /* Sources */,
 				E4A4B9D81F3C2DD200B27324 /* Frameworks */,
 				E4A4B9D91F3C2DD200B27324 /* Resources */,
+				02B7F308BFCACCB48934C137 /* [CP] Embed Pods Frameworks */,
+				BDF58438B9E0AB199F6FD7CF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +204,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4A4BA061F3C2DD200B27324 /* Build configuration list for PBXNativeTarget "MogoNavigatorModuleTests" */;
 			buildPhases = (
+				361FE98C1E9C80ACD421235C /* [CP] Check Pods Manifest.lock */,
 				E4A4B9EB1F3C2DD200B27324 /* Sources */,
 				E4A4B9EC1F3C2DD200B27324 /* Frameworks */,
 				E4A4B9ED1F3C2DD200B27324 /* Resources */,
+				0B939B2F56DF289EC288D0DF /* [CP] Embed Pods Frameworks */,
+				0FAC5F9D4D64F4C609BB5F98 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +225,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E4A4BA091F3C2DD200B27324 /* Build configuration list for PBXNativeTarget "MogoNavigatorModuleUITests" */;
 			buildPhases = (
+				F114CD17ECAF95A2328AF6B8 /* [CP] Check Pods Manifest.lock */,
 				E4A4B9F61F3C2DD200B27324 /* Sources */,
 				E4A4B9F71F3C2DD200B27324 /* Frameworks */,
 				E4A4B9F81F3C2DD200B27324 /* Resources */,
+				B8B8C48E66A82082126D63A3 /* [CP] Embed Pods Frameworks */,
+				B0256A0E822B70DA180878C6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -257,12 +318,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02B7F308BFCACCB48934C137 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MogoNavigatorModule/Pods-MogoNavigatorModule-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0B939B2F56DF289EC288D0DF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MogoNavigatorModuleTests/Pods-MogoNavigatorModuleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0FAC5F9D4D64F4C609BB5F98 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MogoNavigatorModuleTests/Pods-MogoNavigatorModuleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		361FE98C1E9C80ACD421235C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B0256A0E822B70DA180878C6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MogoNavigatorModuleUITests/Pods-MogoNavigatorModuleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8B8C48E66A82082126D63A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MogoNavigatorModuleUITests/Pods-MogoNavigatorModuleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDF58438B9E0AB199F6FD7CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MogoNavigatorModule/Pods-MogoNavigatorModule-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F114CD17ECAF95A2328AF6B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FCCB37ECBB77B4676BD9F145 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E4A4B9D71F3C2DD200B27324 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E4A4B9E11F3C2DD200B27324 /* ViewController.swift in Sources */,
+				E4A4BA0E1F3C2FD000B27324 /* MogoNavogator.swift in Sources */,
 				E4A4B9DF1F3C2DD200B27324 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,10 +615,12 @@
 		};
 		E4A4BA041F3C2DD200B27324 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E87A257B0805800FC591825 /* Pods-MogoNavigatorModule.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QJWKFR3L8K;
 				INFOPLIST_FILE = MogoNavigatorModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Texy.MogoNavigatorModule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,10 +630,12 @@
 		};
 		E4A4BA051F3C2DD200B27324 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D93B67764BB3D91D17181C5 /* Pods-MogoNavigatorModule.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = QJWKFR3L8K;
 				INFOPLIST_FILE = MogoNavigatorModule/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Texy.MogoNavigatorModule;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +645,7 @@
 		};
 		E4A4BA071F3C2DD200B27324 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20044E1C3AA6D65B47A9EC7A /* Pods-MogoNavigatorModuleTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -456,6 +661,7 @@
 		};
 		E4A4BA081F3C2DD200B27324 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 116A7FF419A5657AF10018BF /* Pods-MogoNavigatorModuleTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -471,6 +677,7 @@
 		};
 		E4A4BA0A1F3C2DD200B27324 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5A53D014EC67977CA5A759C /* Pods-MogoNavigatorModuleUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QJWKFR3L8K;
@@ -485,6 +692,7 @@
 		};
 		E4A4BA0B1F3C2DD200B27324 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA785BB63B5738330692E6F /* Pods-MogoNavigatorModuleUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = QJWKFR3L8K;
@@ -516,6 +724,7 @@
 				E4A4BA051F3C2DD200B27324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4A4BA061F3C2DD200B27324 /* Build configuration list for PBXNativeTarget "MogoNavigatorModuleTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +733,7 @@
 				E4A4BA081F3C2DD200B27324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4A4BA091F3C2DD200B27324 /* Build configuration list for PBXNativeTarget "MogoNavigatorModuleUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +742,7 @@
 				E4A4BA0B1F3C2DD200B27324 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
