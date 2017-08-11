@@ -16,7 +16,8 @@
 		E4A4B9E91F3C2DD200B27324 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4A4B9E71F3C2DD200B27324 /* LaunchScreen.storyboard */; };
 		E4A4B9F41F3C2DD200B27324 /* MogoNavigatorModuleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A4B9F31F3C2DD200B27324 /* MogoNavigatorModuleTests.swift */; };
 		E4A4B9FF1F3C2DD200B27324 /* MogoNavigatorModuleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A4B9FE1F3C2DD200B27324 /* MogoNavigatorModuleUITests.swift */; };
-		E4A4BA0E1F3C2FD000B27324 /* MogoNavogator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A4BA0D1F3C2FD000B27324 /* MogoNavogator.swift */; };
+		E4A4BA0E1F3C2FD000B27324 /* MogoNavigator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A4BA0D1F3C2FD000B27324 /* MogoNavigator.swift */; };
+		E4A4BA501F3D4BD900B27324 /* MogoNavigatorUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4A4BA4F1F3D4BD900B27324 /* MogoNavigatorUrl.swift */; };
 		E80358B57126BD23083D230B /* Pods_MogoNavigatorModule.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CFEB9AA5662FEE5C3F5AF4C /* Pods_MogoNavigatorModule.framework */; };
 /* End PBXBuildFile section */
 
@@ -60,7 +61,8 @@
 		E4A4B9FA1F3C2DD200B27324 /* MogoNavigatorModuleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MogoNavigatorModuleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4A4B9FE1F3C2DD200B27324 /* MogoNavigatorModuleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MogoNavigatorModuleUITests.swift; sourceTree = "<group>"; };
 		E4A4BA001F3C2DD200B27324 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E4A4BA0D1F3C2FD000B27324 /* MogoNavogator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MogoNavogator.swift; sourceTree = "<group>"; };
+		E4A4BA0D1F3C2FD000B27324 /* MogoNavigator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MogoNavigator.swift; sourceTree = "<group>"; };
+		E4A4BA4F1F3D4BD900B27324 /* MogoNavigatorUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MogoNavigatorUrl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -171,7 +173,8 @@
 		E4A4BA0C1F3C2F6000B27324 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				E4A4BA0D1F3C2FD000B27324 /* MogoNavogator.swift */,
+				E4A4BA0D1F3C2FD000B27324 /* MogoNavigator.swift */,
+				E4A4BA4F1F3D4BD900B27324 /* MogoNavigatorUrl.swift */,
 			);
 			name = Sources;
 			path = ../Sources;
@@ -474,7 +477,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4A4B9E11F3C2DD200B27324 /* ViewController.swift in Sources */,
-				E4A4BA0E1F3C2FD000B27324 /* MogoNavogator.swift in Sources */,
+				E4A4BA501F3D4BD900B27324 /* MogoNavigatorUrl.swift in Sources */,
+				E4A4BA0E1F3C2FD000B27324 /* MogoNavigator.swift in Sources */,
 				E4A4B9DF1F3C2DD200B27324 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

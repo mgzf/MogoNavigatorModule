@@ -35,7 +35,7 @@ public extension RoomDetailNavigator {
     
     public func navigatorToDetail(){
         print("dddddddd")
-        Navigator.push("MG://app/TextViewController")
+        Navigator.push(MogoTextViewControllerURL)
     }
     
 }
