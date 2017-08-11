@@ -11,13 +11,21 @@ import DeeplinkNavigator
 
 let MogoSchemeL:String = "MG://app"
 
+
+
+let WishModule = "MogoRenter_Wish_iOS"
+
+
 let MogoTextViewControllerURL:String = "\(MogoSchemeL)/TextViewController"
+let TextViewController:String = "TextViewController"
+
+
 
 open class MogoNavigatorUrl: NSObject {
     
     open class func reg(){
         Navigator.scheme = MogoSchemeL
-        if let URLNavigable = getClassWitnClassName(bundle:"MogoRenter_Wish_iOS", forClass: "TextViewController") as? DeeplinkNavigable.Type{
+        if let URLNavigable = getClassWitnClassName(bundle:WishModule, forClass: TextViewController) as? DeeplinkNavigable.Type{
             Navigator.map(MogoTextViewControllerURL, URLNavigable)
         }
     }
