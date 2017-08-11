@@ -17,7 +17,7 @@ open class MogoNavigatorUrl: NSObject {
     
     open class func reg(){
         Navigator.scheme = MogoSchemeL
-        if let URLNavigable = NSClassFromString("TextViewController") as? DeeplinkNavigable.Type{
+        if let URLNavigable = getClassWitnClassNmae("TextViewController") as? DeeplinkNavigable.Type{
             Navigator.map(MogoTextViewControllerURL, URLNavigable)
         }
     }
