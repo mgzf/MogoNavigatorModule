@@ -17,24 +17,25 @@ open class MogoNavigatorUrl: NSObject {
     
     open class func reg(){
         Navigator.scheme = MogoSchemeL
-        if let URLNavigable = getClassWitnClassNmae("TextViewController") as? DeeplinkNavigable.Type{
+        if let URLNavigable = getClassWitnClassName(bundle:"MogoRenter_Wish_iOS", forClass: "TextViewController") as? DeeplinkNavigable.Type{
             Navigator.map(MogoTextViewControllerURL, URLNavigable)
         }
     }
 }
 
-//获取工程的名字
-fileprivate func getBundleName() -> String{
-    var bundlePath = Bundle.main.bundlePath
-    bundlePath = bundlePath.components(separatedBy: "/").last!
-    bundlePath = bundlePath.components(separatedBy: ".").first!
-    return bundlePath
-}
+////获取工程的名字
+//fileprivate func getBundleName() -> String{
+//    var bundlePath = Bundle.main.bundlePath
+//    bundlePath = bundlePath.components(separatedBy: "/").last!
+//    bundlePath = bundlePath.components(separatedBy: ".").first!
+//    return bundlePath
+//}
+
 //通过类名返回一个AnyClass
-fileprivate func getClassWitnClassNmae(_ name:String) ->AnyClass?{
-    if let classType = NSClassFromString(name)  {
+fileprivate func getClassWitnClassName(bundle bundleName:String,forClass className:String) ->AnyClass?{
+    if let classType = NSClassFromString(className)  {
         return classType
     }
-    let type = getBundleName() + "." + name
+    let type = bundleName + "." + className
     return NSClassFromString(type)
 }
