@@ -25,7 +25,7 @@
 //
 
 import UIKit
-//import DeeplinkNavigator
+import DeeplinkNavigator
 
 public protocol RoomDetailNavigator : class {
     
@@ -35,7 +35,7 @@ public extension RoomDetailNavigator {
     
     public func navigatorToDetail(){
         print("dddddddd")
-//        Navigator.push("MG://app/TextViewController")
+        Navigator.push("MG://app/TextViewController")
     }
     
 }
