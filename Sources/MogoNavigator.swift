@@ -27,14 +27,14 @@
 import UIKit
 import DeeplinkNavigator
 
-public protocol RoomDetailNavigator : class {
+public protocol TextNavigator : class {
     
 }
 
-public extension RoomDetailNavigator {
+public extension TextNavigator {
     
     public func navigatorToDetail(){
-        print("dddddddd")
+        print("跳转TextViewController")
         Navigator.push(MogoTextViewControllerURL)
     }
     
